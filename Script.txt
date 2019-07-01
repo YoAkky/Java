@@ -1,0 +1,20 @@
+create table Users(username varchar2(20), password varchar2(20), role varchar2(10), mobNo number);
+
+insert into users values('akky','yoakky','xxx',8286156026);
+
+
+
+
+create table flightInfo(fNo number, airline varchar2(50),dCity varchar2(20),aCity varchar2(20), dDate Date, aDate Date, fSeats number, fSeatsfare number);
+
+insert into flightInfo values(111, 'Durranto', 'Nashik', 'Pune','28-jun-2019','30-jun-2019',5, 5);
+
+insert into flightInfo values(420, 'Xpresssoo', 'Mumbai', 'Nagpur','15-jun-2019','16-jun-2019',8, 8);
+
+
+
+
+create table bookingInfo(id number, email varchar2(50), noPass number, classType varchar2(5),tFare number, seatNo number, sCity varchar2(50), destCity varchar2(50));
+
+insert into bookingInfo values(21, 'akkyrox11@gmail.com', 15, 'Aa', 2, 12,'Nagpur','Pune');
+
